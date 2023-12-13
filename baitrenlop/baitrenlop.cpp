@@ -23,7 +23,10 @@ int main() {
     printf("phuong trinh co hai nghiem thuc phan biet:\n");
     printf("x1=%.2f",x1);
     printf("x2=%.2f",x2);
-    
+    }else if(delta=0){
+	//nghiem kep
+	float x= (-b)/(2*a);
+	printf("phuong trinh co nghiem kep:\n");
    }else{
    	printf("phuong trinh vo nghiem.\n");
    }
