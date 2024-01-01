@@ -7,10 +7,7 @@ int daoNguoc(int arr[],int n){
         arr[i] = arr[n - 1 - i];
         arr[n - 1 - i] = temp;
     }
-
-    
-    
-
+       
     return temp;
 }
 void inMang(int arr[], int n) {
