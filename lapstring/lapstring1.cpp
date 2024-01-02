@@ -3,11 +3,12 @@
 int main(){
 	char s[20];
 	printf("nhap chuoi s:\n");
-	fgets(s,sizeof(s),stdin);
+	scanf("%s",s);
 	int t = strlen(s);
-	printf("chuoi dao nguoc:");
-	for(int i=t-1;i>=0;i--){
-		printf("%c",s[i]);
+	
+	for(int i=0;i<0;i++){
+		char tmp=s[i];
+		s[i]=s[t-i-1];
 		}
-		return 0;
+		printf("chuoi dao nguoc:%s",s);
 }	
