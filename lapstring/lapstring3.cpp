@@ -22,7 +22,7 @@ int main() {
         strings[i][strcspn(strings[i], "\n")] = '\0';
     }
 
-    //sap xem mang thu tu alphabetic
+    //sap xem mang thu tu alphabet
     for (int i = 0; i < 4; i++) {
         for (int j = i + 1; j < 5; j++) {
             if (strcmp(strings[i], strings[j]) > 0) {
